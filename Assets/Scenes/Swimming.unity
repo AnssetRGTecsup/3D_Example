@@ -269,10 +269,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14e95f7d54657c04e95e1fc2e1a7790f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectPrefab: {fileID: 1733855665772604, guid: b0489fdb6d64a4a4ba8e194e561d60cd, type: 3}
+  objectPrefab: {fileID: -171036683316551788, guid: b0489fdb6d64a4a4ba8e194e561d60cd, type: 3}
   objectTransform: {fileID: 582376938}
   quantityPrefabs: 10
   distanceMax: 1.5
+  speedRange:
+    min: 1
+    max: 2
 --- !u!4 &582376938
 Transform:
   m_ObjectHideFlags: 0
@@ -524,10 +527,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14e95f7d54657c04e95e1fc2e1a7790f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectPrefab: {fileID: 1318662798089844, guid: 06a4036ceebb544e494c30d599b9d2c1, type: 3}
+  objectPrefab: {fileID: -4213938333629194702, guid: 06a4036ceebb544e494c30d599b9d2c1, type: 3}
   objectTransform: {fileID: 1439329805}
   quantityPrefabs: 10
   distanceMax: 1
+  speedRange:
+    min: 1
+    max: 2
 --- !u!4 &1439329805
 Transform:
   m_ObjectHideFlags: 0
